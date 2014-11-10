@@ -1,0 +1,136 @@
+body {
+    background-image: url("img/snowy-forest.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    margin: 5px;
+}
+
+header img {
+    width: 280px;
+    height: 200px; 
+    padding: 0px;
+    border-radius: 15px;
+    border: 3px solid gold;
+
+}
+#main {
+    margin-top: 10%;
+    background-color: whitesmoke;
+    width: 80%;
+    position: relative;
+    float: left;
+    margin: auto;
+    border: 3px solid forestgreen;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-color: gold;
+    height: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#nav li a {
+    text-decoration: none;
+    font-size:  1.5em;
+    color: forestgreen;
+}
+
+#nav li a:hover {
+    color: gold;
+}
+
+#current:before {
+    content:url("img/present.jpg");
+}
+
+#content {
+    padding: 20px;
+    color: forestgreen;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: orangered;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    color: orangered;
+}
+
+p {
+    text-align: justify;
+}
+
+#pres {
+    width: 500px;
+    border-radius: 15px;
+    border: 3px solid gold;
+}
+
+#tree {
+    width: 800px;
+    border-radius: 15px;
+    border: 3px solid gold;
+}
+
+#santa {
+    width: 500px;
+    border-radius: 15px;
+    border: 3px solid gold;
+}
+
+#couple {
+    width: 400px;
+    border-radius: 15px;
+    border: 3px solid gold;
+    float: right;
+}
+
+#letter {
+    width: 250px;
+    border-radius: 15px;
+    border: 3px solid red;
+    float: right;
+}
+
+#santaaddr {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 2em;
+    font-style: italic;
+    color: gold;
+}
+
+#santaaddr::first-letter {
+    font-size: inherit;
+    color: gold;
+}
+
+#ds {
+    width: 250px;
+    border-radius: 15px;
+    border: 3px solid gold;
+}
